@@ -1,0 +1,40 @@
+* {box-sizing: border-box;}
+
+:root {
+    --Gray: #6E7E85;
+    --orange: orangered;
+    --dodge: dodgerblue;
+    --light-blue: #66FCF1;
+    --text: #C5C6C7;
+    --font1: 'Merriweather', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--text);
+}
+
+h1 {
+    color: var(--orange);
+    font-family: var(--font1);
+}
+
+
+/* --------HEADER--------- */
+
+.header {
+    height: 64px;
+    background-color: var(--dodge);
+    border-bottom: 2px solid red;
+}
+
+.text-color {
+    color: var(--text);
+}
+
+.date-bar {
+    /* margin-left: 30px; */
+    height: 50px;
+    width: 400px;
+}
